@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="style2.css"> -->
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
 
@@ -155,6 +155,92 @@
             </ul>
         </div>
     </div>
+
+    <!--Container-->
+    <section class="container-contact">
+        <h1 class="contact-title">Ways to Contact Me</h1>
+        <div class="container-form">
+            <div class="two-thirds column">
+                <!--Contact form-->
+                <div class="contactForm">
+                    <form>
+                        <div class="inputColumns clearfix">
+                            
+                        <div class="column1">
+                        <input type="text" placeholder="Name *" value="" id="name" name="name" >
+                        </div>
+                        
+                        <!--Column-->
+                        <div class="column2">
+                        <input type="text" placeholder="Email *" value="" id="email" name="email">
+                        </div>
+                        <!--End column-->
+                        
+                        </div>
+                        <!--End input columns-->
+                        
+                        
+                            <!--Input columns-->
+                            <div class="inputColumns clearfix">
     
+                            <div class="column1">
+                            <input type="text" placeholder="WebSite" value="" id="website" name="website" >
+                            </div>
+    
+                            <!--Column-->
+                            <div class="column2">
+                            <input type="text" placeholder="Subject " value="" id="subject" name="subject">
+                            </div>
+                            <!--End column-->
+    
+                            </div>
+                            <!--End input columns-->
+                            
+                            <textarea name="message"  placeholder="Message *" id="message" cols="45" rows="10"></textarea>
+                            <div class="cv-btn">
+                                <button class="btn-1">Send Message</button>
+                            </div>
+                    </form>
+                </div>
+                <!--End contact form-->	
+            </div>
+            
+            <div class="one-third column">
+                <!--Contact info-->
+                <div class="contactInfo">
+                    <div class="cInfo">
+                        <h1>more digital agency</h1>
+                        <ul>
+                            <li>Phone : + 123-456-789-456</li>
+                            <li>Fax: + 123-456-789-456</li>
+                            <li>Email : youremail@yourdomaine.net</li>
+                            <li>Adresse : 1234 Street Road, City Name
+                            IN 567 890.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--End contact info-->
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->	
+    <footer id="footer" class="footer">
+        <div class="footerholder">
+            <div class="container clearfix">
+                <ul class="socialsFooter">
+                    <li><a href="#"><i data-feather="facebook"></i></a></li>
+                    <li><a href="#"><i data-feather="instagram"></i></a></li>
+                    <li><a href="#"><i data-feather="github"></i></a></li>
+                </ul>
+                <p>&copy; 2023. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!--End footer-->
+
+    <script>
+        feather.replace();
+    </script>
 </body>
 </html>

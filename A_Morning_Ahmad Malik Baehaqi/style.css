@@ -625,4 +625,141 @@ figure{
       margin-bottom: 2rem;
     }
   }
+
+
+/* Contact */
+.container-contact {
+	background-color: #34343b;
+  padding: 50px 0;
+}
+
+.container-form {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.contactForm, .contactInfo, .replyForm{
+	margin-top:50px;
+}
+
+.contactForm input[type="text"], .contactForm textarea, .replyForm input[type="text"], .replyForm textarea {
+    background: #f2f2f1;
+    border: 0 none;
+    color: #666666;
+    font-family: inherit;
+    font-size: 13px;
+    margin: 0 0 14px;
+    outline: 0 none;
+    padding: 12px 10px;
+    resize: none;
+    width: 95%;
+	font-family: "open_sanslight", Arial, sans-serif;
+	border:1px solid #f2f2f1;
+	
+}
+
+.contactForm textarea, .replyForm textarea {
+    width: 97.4%;
+	color: #666666;
+	font-family: "open_sanslight", Arial, sans-serif;
+}
+
+.contactForm #submit, .replyForm #submit  {
+    background: #D0A068;
+    color: #ffffff;
+    display: inline-block;
+    padding: 8px 25px;
+	cursor: pointer;
+}
+
+.inputColumns  .column1 {
+    float: left;
+    width: 50%;
+}
+
+.inputColumns .column2 {
+    float: left;
+    width: 50%;
+}
+
+.two-thirds {
+	width: 50%;
+}
+
+.two-thirds .cv-btn{
+	padding: 0;
+}
+
+.two-thirds .cv-btn button {
+	border: none;
+  cursor: pointer;
+}
+
+.cInfo h1{
+	text-align: left;
+}
+
+.cInfo ul {
+	padding: 0;
+}
+
+.cInfo ul li {
+	color: #FFF;
+}
+
+
+
+/*Footer*/
+
+.footerholder {
+  background: #2e2e35;
+  color: #FFF;
+  font-size: 13px;
+  padding: 50px 0;
+  text-align:center;
+  text-transform: uppercase;
+}
+
+.footerholder p {
+  margin-top: 10px;
+}
+
+.brand {
+  color: #d0a068;
   
+}
+
+.socialsFooter {
+  padding: 0;
+}
+
+.socialsFooter li {
+  display: inline-block;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.socialsFooter a {
+  border: 3px solid #FFF;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.socialsFooter li i {
+  line-height: 35px;
+}
+
+.footer .footerholder p {
+  margin-bottom: 0;
+}
+
+.socialsFooter a:hover {
+  border: 3px solid #2b80ff;
+  color: #2b80ff;
+}
+/*End footer*/
