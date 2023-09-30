@@ -9,6 +9,7 @@
 </head>
 <body>
 
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -20,10 +21,7 @@
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -32,12 +30,15 @@
             </div>
         </div>
     </nav>
+    <!-- End Navbar -->
 
+
+    <!-- Hero -->
     <section class="slider d-flex justify-content-center" id="slider">
         <div class="container text-center">
             <div class="col-12">
                 <div class="left-content">
-                    <p class="hello">HELLO I'M</p>
+                    <p class="hello">HALO, NAMA SAYA</p>
                     <div class="animated-headlines">
                         <h1 class="cd-headline">
                             <span class="cd-words-wrapper">
@@ -46,39 +47,34 @@
                         </h1>
                     </div>
                     <p class="paragraph">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>
-                        incididunt ut labore et dolore magna aliqua.
+                        Seseorang yang antusias di bidang teknologi dan berkeinginan dalam menciptakan solusi digital yang inovatif<br>
+                        Bersemangat untuk belajar dan berkolaborasi
                     </p>
-                    <a href="#0" class="btn">Download CV</a>
+                    <a href="#about" class="btn">Tentang Saya</a>
                 </div>
             </div>
         </div>
     </section>
+    <!-- End Hero -->
 
+
+    <!-- About Me -->
     <section id="about" class="about-section bd-bottom padding">
         <div class="container">
             <div class="row about-wrap d-flex align-items-center">
                 <div class="col-lg-5">
                     <div class="about-bg">
-                        <img src="img/image-2.jpg" alt="img">
+                        <img src="img/photo.jpg" alt="img">
                     </div>
                 </div>
                 <div class="col-lg-7">
                     <div class="about-content">
-                        <h2>Saya adalah seorang Web Developer</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum incidunt consequuntur iste quibusdam suscipit nisi ad expedita rem ab odit.</p>
+                        <h1>About Me</h1>
+                        <p>Saya adalah seorang mahasiswa di salah satu Perguruan Tinggi Negeri di Tanjungpinang. Saya memiliki minat dalam bidang teknologi khususnya web programming dan masih dalam tahap belajar untuk menjadi lebih baik lagi. Saya memiliki beberapa pemahaman dan skill yang saya kuasai.</p>
                     </div>
                     <ul class="skill-items">
                         <li class="skill-item">
-                            <h5>Photoshop</h5>
-                            <div class="progress">
-                                <div class="progress-bar" style="width: 80%;">
-                                    <span>80%</span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="skill-item">
-                            <h5>Indesign</h5>
+                            <h5>HTML</h5>
                             <div class="progress">
                                 <div class="progress-bar" style="width: 90%;">
                                     <span>90%</span>
@@ -86,7 +82,15 @@
                             </div>
                         </li>
                         <li class="skill-item">
-                            <h5>Web Programing</h5>
+                            <h5>CSS</h5>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 90%;">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <h5>JavaScript</h5>
                             <div class="progress">
                                 <div class="progress-bar" style="width: 75%;" >
                                     <span>75%</span>
@@ -94,135 +98,126 @@
                             </div>
                         </li>
                         <li class="skill-item">
-                            <h5>Adobe Illustrator</h5>
+                            <h5>Java</h5>
                             <div class="progress">
-                                <div class="progress-bar" style="width: 65%;">
-                                    <span>65%</span>
+                                <div class="progress-bar" style="width: 60%;">
+                                    <span>60%</span>
                                 </div>
                             </div>
                         </li>
                     </ul>
                     <div class="cv-btn">
-                        <a href="#" class="btn-1">Get a Free Quote</a>
+                        <a href="#projects" class="btn-1">Project Saya</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--/.about-section-->
+    <!-- End About Me -->
     
 
-    <div class='cards' id="services">
-        <h1>Check out My Works</h1>
+    <!-- Projects -->
+    <div class='cards' id="projects">
+        <h1>My Projects</h1>
         <div class='cards__wrapper'>
             <ul class="cards__items">
                 <li class="cards__item">
-                    <a href="#" class='cards__item__link'>
-                        <figure class='cards__item__pic-wrap' data-category='JavaScript'>
-                            <img src='img/bg-2.jpg' alt="Card Image" class="cards__item__img" />
+                    <a href="https://github.com/malikbae/Project-Perancangan-dan-Analisis-Algoritma" class='cards__item__link'>
+                        <figure class='cards__item__pic-wrap' data-category='Java'>
+                            <img src='img/project-1.JPG' alt="Card Image" class="cards__item__img" />
                         </figure>
                         <div class="cards__item__info">
                             <h5 class="cards__item__text">
-                                Ini adalah contoh text
+                                Hide and Seek
                             </h5>
+                            <p class="cards__item__text">
+                                Game ini dibuat dengan bahasa pemrograman Java. Mirip seperti permainan hide and seek, dimana droid berwarna merah bertugas mengejar droid hijau, dan droid hijau akan menghindar dari droid merah.
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="cards__item">
+                    <a href="https://github.com/malikbae/memory-game" class='cards__item__link'>
+                        <figure class='cards__item__pic-wrap' data-category='JavaScript'>
+                            <img src='img/project-2.JPG' alt="Card Image" class="cards__item__img" />
+                        </figure>
+                        <div class="cards__item__info">
+                            <h5 class="cards__item__text">
+                                Memory Game
+                            </h5>
+                            <p class="cards__item__text">
+                                Memory Game adalah sebuah permainan untuk mencari gambar yang sama. Terdapat 12 gambar dan Anda harus mencari 2 gambar yang sama dalam waktu 40 detik. Game ini dibuat dengan HTML, CSS dan JavaScript.
+                            </p>
                         </div>
                     </a>
                 </li>
                 <li class="cards__item">
                     <a href="#" class='cards__item__link'>
                         <figure class='cards__item__pic-wrap' data-category='JavaScript'>
-                            <img src='img/bg-2.jpg' alt="Card Image" class="cards__item__img" />
+                            <img src='img/project-3.JPG' alt="Card Image" class="cards__item__img" />
                         </figure>
                         <div class="cards__item__info">
                             <h5 class="cards__item__text">
-                                Ini adalah contoh text
+                                Weather App
                             </h5>
-                        </div>
-                    </a>
-                </li>
-                <li class="cards__item">
-                    <a href="#" class='cards__item__link'>
-                        <figure class='cards__item__pic-wrap' data-category='JavaScript'>
-                            <img src='img/bg-2.jpg' alt="Card Image" class="cards__item__img" />
-                        </figure>
-                        <div class="cards__item__info">
-                            <h5 class="cards__item__text">
-                                Ini adalah contoh text
-                            </h5>
+                            <p class="cards__item__text">
+                                Weather app adalah aplikasi yang menyediakan informasi aktual tentang kondisi cuaca di suatu lokasi. Aplikasi berbasis website ini menyediakan informasi suhu, kelembaban udara, dan kecepatan angin.
+                            </p>
                         </div>
                     </a>
                 </li>
             </ul>
         </div>
     </div>
+    <!-- End Projects -->
 
-    <!--Container-->
-    <section class="container-contact">
-        <h1 class="contact-title">Ways to Contact Me</h1>
+
+    <!-- Contact -->
+    <section class="container-contact" id="contact">
+        <h1 class="contact-title">Contact Me</h1>
         <div class="container-form">
             <div class="two-thirds column">
-                <!--Contact form-->
                 <div class="contactForm">
                     <form>
                         <div class="inputColumns clearfix">
-                            
-                        <div class="column1">
-                        <input type="text" placeholder="Name *" value="" id="name" name="name" >
-                        </div>
-                        
-                        <!--Column-->
-                        <div class="column2">
-                        <input type="text" placeholder="Email *" value="" id="email" name="email">
-                        </div>
-                        <!--End column-->
-                        
-                        </div>
-                        <!--End input columns-->
-                        
-                        
-                            <!--Input columns-->
-                            <div class="inputColumns clearfix">
-    
                             <div class="column1">
-                            <input type="text" placeholder="WebSite" value="" id="website" name="website" >
+                                <input type="text" placeholder="Name *" value="" id="name" name="name" >
                             </div>
-    
-                            <!--Column-->
                             <div class="column2">
-                            <input type="text" placeholder="Subject " value="" id="subject" name="subject">
+                                <input type="text" placeholder="Email *" value="" id="email" name="email">
                             </div>
-                            <!--End column-->
-    
+                        </div>
+                        <div class="inputColumns clearfix">
+                            <div class="column1">
+                                <input type="text" placeholder="WebSite" value="" id="website" name="website" >
                             </div>
-                            <!--End input columns-->
-                            
-                            <textarea name="message"  placeholder="Message *" id="message" cols="45" rows="10"></textarea>
-                            <div class="cv-btn">
-                                <button class="btn-1">Send Message</button>
+                            <div class="column2">
+                                <input type="text" placeholder="Subject " value="" id="subject" name="subject">
                             </div>
+                        </div>
+                        <textarea name="message"  placeholder="Message *" id="message" cols="45" rows="10"></textarea>
+                        <div class="cv-btn">
+                            <button class="btn-1">Send Message</button>
+                        </div>
                     </form>
                 </div>
-                <!--End contact form-->	
             </div>
-            
             <div class="one-third column">
-                <!--Contact info-->
                 <div class="contactInfo">
                     <div class="cInfo">
-                        <h1>more digital agency</h1>
+                        <h5>Kontak Pribadi Saya</h5>
                         <ul>
-                            <li>Phone : + 123-456-789-456</li>
-                            <li>Fax: + 123-456-789-456</li>
-                            <li>Email : youremail@yourdomaine.net</li>
-                            <li>Adresse : 1234 Street Road, City Name
-                            IN 567 890.</li>
+                            <li><span><i data-feather="phone"></i></span>Phone : +62-812-2907-1212</li>
+                            <li><span><i data-feather="mail"></i></span>Email : a.malikbaehaqi@gmail.com</li>
+                            <li><span><i data-feather="map-pin"></i></span>Address : Kepulauan Riau, Tanjungpinang - Indonesia</li>
                         </ul>
                     </div>
                 </div>
-                <!--End contact info-->
             </div>
         </div>
     </section>
+    <!-- End Contact -->
+
 
     <!--Footer-->	
     <footer id="footer" class="footer">
